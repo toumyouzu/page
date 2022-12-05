@@ -240,9 +240,43 @@ font-weight: 400;
 font-size: 20px;}
 
 /* アカウント */
+.umebosi{
+   text-align: center;
+background-image: url(../images/huusen2.jpg);
+background-repeat: repeat;
+background-size: cover;
+}
+.sns a{
+color: #432;
+background-color: #9b977b80;
+border-radius: 50%;
+font-family: "Nikukyu";
+font-size: 30px;
+}
+.sns a:hover{
+    color:#;
+}
+p9{
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: 1000;
+    font-size: 20px;
+    border-bottom: #432 1px solid;
+}
+p10{font-family: 'Shippori Mincho B1', serif;
+    text-align: center;
+font-size: 15px;
+font-weight: 500;
+color: #432;
 
-#ssns .sns{
-    display: flex;
+}
+h5{
+    font-family:'Shippori Mincho B1', serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+} 
+/* #ssns .sns{
+   text-align: center;
     justify-content: space-between;
 }
 #ssns .sub-title{
@@ -252,12 +286,12 @@ font-size: 20px;}
     width: 30%;
     margin-top: 30px;
 }
-h5{
+/* h5{
     font-family:'Shippori Mincho B1', serif;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-}
+} */
 .sns-box li{
     list-style:none;
     
@@ -271,7 +305,7 @@ h5{
 }
 .location{
     justify-content: center;
-}
+} */
 /* 文章ページ */
 
 /* ポートレートページ */
@@ -368,7 +402,10 @@ h5{
         background-image: url(../images/toumyoutop.jpg);
         background-position: 30px 80px;        
         }   
-        アカウントページ
+       /* アカウントページ */
+       h7{
+        font-size: 20px;
+       }
 /* ↑アカウントページでは、背景画像の位置の調整が必要だよ。 */
 #umebosi{
     background-image: url(../images/enoguhaikei.jpg);
