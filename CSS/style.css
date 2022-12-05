@@ -275,37 +275,8 @@ h5{
     font-weight: 700;
     text-align: center;
 } 
-/* #ssns .sns{
-   text-align: center;
-    justify-content: space-between;
-}
-#ssns .sub-title{
-    margin-bottom:30px ;
-}
-.sns-box{
-    width: 30%;
-    margin-top: 30px;
-}
-/* h5{
-    font-family:'Shippori Mincho B1', serif;
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-} */
-.sns-box li{
-    list-style:none;
-    
-}
-.sns-box a{
-      color: black;
-    
-}
-.sns-box a:hover{
-    color: #99cc65;
-}
-.location{
-    justify-content: center;
-} */
+
+
 /* 文章ページ */
 
 /* ポートレートページ */
