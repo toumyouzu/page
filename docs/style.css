@@ -24,9 +24,8 @@ img {
 }
 
 .logo {
-  width: 300px;
-  margin: 0.auto;
-    height: auto; 
+    width: 300px;
+    height: auto;
 }
 
 /* なぜ反映されない？→豆苗フォトフォルダにｃｓｓを入れ込んでいなかった。://を打ち込んでいなかった */
@@ -34,29 +33,22 @@ img {
 .main-nav {
     font-size: 1.25rem;
     text-transform: uppercase;
-    /* ↑全ての文字を大文字表記するという意味 */
     list-style: none;
 }
 
 .main-nav {
     margin-left: 36px;
     display: flex;
-      
+    
+    
 }
 
 .main-nav a {
     color: #432;
-    background-color: aliceblue;
-    font-family: "Nikukyu";
-    font-size: 20px;
-    font-weight: lighter;
-    word-break: break-all;
 }
 
 .main-nav a:hover {
     color: #99cc65;
-    background-color: aliceblue;
-    border-radius: 35%;
 }
 
 .main-nav li {
@@ -65,9 +57,7 @@ img {
 }
 
 .page-header {
-    /* display: flex; */
-    flex-direction: column;
-    align-items: center;
+    display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #99cc65; 
 }
@@ -266,8 +256,6 @@ h5{
 .location{
     justify-content: center;
 }
-/* 文章ページ */
-
 /* ポートレートページ */
 /* #home4{
     background-image: url(../images/enoguhaikei.jpg);
@@ -281,13 +269,7 @@ h5{
     gap:20px;
 }
 
-/* pcでは無効（改行しない） */
-.sma{
-    display: none;
-}
 @media(max-width:600px){
-    /* スマホでは有効（改行する） */
-    .suma{display: block;}
     .Photo big{
         grid-column: auto;
         grid-row: auto;
@@ -305,9 +287,7 @@ h5{
     }
     /* ヘッダー */
     .main-nav{
-        font-size: 15px;
-        margin: 0 auto;
-      
+        font-size: 10px;
     }
     .page-header{
         margin-bottom: auto;
@@ -320,7 +300,6 @@ h5{
     /* 文章ページ */
 .Photo-contents  p{
     font-size: 10px;
-    word-break: keep-all;
 }
 #home3{
     display:block;
@@ -330,18 +309,6 @@ h5{
 }
 #home3 p{
     font-size: 12px;
-}
-.tyuuou{
-   margin: 0 auto;
-    background-color: #dddddd90 ;
-    border-radius: 15%;
-    
-}
-.tyuuouh{
-    margin-left: 15px;
-}
-.tyuuou a{
-    margin-left: 40px;
 }
 
     /* 入口ページ */
