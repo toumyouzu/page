@@ -247,24 +247,27 @@ background-repeat: repeat;
 background-size: cover;
 }
 .sns a{
-color: #432;
-background-color: #9b977b80;
-border-radius: 50%;
-font-family: "Nikukyu";
+color: #614414;
+background-color: #ffffff66;
+border-radius: 70%;
+font-family: 'Mochiy Pop P One', sans-serif;
+/* font-family: 'Potta One', cursive; */
+
 font-size: 30px;
 }
+
 .sns a:hover{
-    color:#;
+    color:#faa61a;
 }
 p9{
     font-family: 'Shippori Mincho B1', serif;
     font-weight: 1000;
-    font-size: 20px;
+    font-size: 30px;
     border-bottom: #432 1px solid;
 }
 p10{font-family: 'Shippori Mincho B1', serif;
     text-align: center;
-font-size: 15px;
+font-size: 18px;
 font-weight: 500;
 color: #432;
 
@@ -324,7 +327,7 @@ h5{
     margin: 2px;
 }
       
-    }
+    
     .page-header{
         margin-bottom: auto;
         flex-direction: column;
@@ -354,10 +357,10 @@ h5{
     
 }
 .tyuuouh{
-    margin-left: 15px;
+    margin-left: 18px;
 }
 .tyuuou a{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
     /* 入口ページ */
@@ -374,9 +377,13 @@ h5{
         background-position: 30px 80px;        
         }   
        /* アカウントページ */
-       h7{
-        font-size: 20px;
-       }
+      p9{
+        font-size: 22px;
+      }
+      p10{
+        font-size: 16px;
+      }
+
 /* ↑アカウントページでは、背景画像の位置の調整が必要だよ。 */
 #umebosi{
     background-image: url(../images/enoguhaikei.jpg);
