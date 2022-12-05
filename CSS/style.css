@@ -46,16 +46,17 @@ img {
 
 .main-nav a {
     color: #432;
-    background-color: aliceblue;
+    background-color: #9b977b80;
     font-family: "Nikukyu";
     font-size: 20px;
     font-weight: lighter;
     word-break: break-all;
+    border-radius: 35%;
 }
 
 .main-nav a:hover {
     color: #99cc65;
-    background-color: aliceblue;
+    background-color: #9b977b80;
     border-radius: 35%;
 }
 
@@ -205,11 +206,16 @@ border-bottom: 1px #432 solid;
     font-weight: 1000;
     color: black;
 }
+
 .Photo-contents article h1{
     text-align: center;
     font-size: 30px;
     font-family: 'Shippori Mincho B1', serif;
 }
+/* ギャラリーページ */
+
+
+/* フィルムページ */
 .film{
     background-image: url(../images/huusen2.jpg);
     background-repeat: repeat;
@@ -269,16 +275,16 @@ h5{
 /* 文章ページ */
 
 /* ポートレートページ */
-/* #home4{
-    background-image: url(../images/enoguhaikei.jpg);
-    background-size:cover;
-    background-repeat: repeat;
-   
-} */
+
 .potore{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:20px;
+}
+#home7{
+    background-image: url(../images/huusen2.jpg);
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 /* pcでは無効（改行しない） */
@@ -287,7 +293,7 @@ h5{
 }
 @media(max-width:600px){
     /* スマホでは有効（改行する） */
-    .suma{display: block;}
+    .sma{display: block;}
     .Photo big{
         grid-column: auto;
         grid-row: auto;
@@ -307,6 +313,11 @@ h5{
     .main-nav{
         font-size: 15px;
         margin: 0 auto;
+       
+}
+.main-nav li{
+    margin: 8px;
+}
       
     }
     .page-header{
